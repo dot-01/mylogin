@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div>
+        <a href="#home" class="active">Home</a>
+        <a href="/Contact">Contact Us</a>
+        <a href="/About">About US</a>
+        <a href="/Login">Login</a>
+      </div>
+    </header>
+    <div class="user-div">
+      <h1>Add User</h1>
+      <form class="user-form" method="post">
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder="Email..." id="email" />
+
+        <label for="password">Password</label>
+        <input
+          type="password"
+          name="password"
+          placeholder="Password..."
+          id="password"
+        />
+
+        <input type="submit" value="Creat" class="create-user" id="submit" />
+      </form>
+    </div>
+
+    <div class="all-users">
+      <table id="user1">
+        <tr>
+          <th>Email</th>
+          <th>Password</th>
+          <th></th>
+        </tr>
+      </table>
+    </div>
+    <footer>
+      <h1>Copyright&copy; 2023</h1>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

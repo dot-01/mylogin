@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+
+  text-align: center;
+  background-color: #4286f4;
+  padding: 20px 10px;
+}
+header a {
+  color: #31343b;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+header a:hover {
+  background-color: #373b44;
+  color: aliceblue;
+}
+.active {
+  background-color: #73b64c;
+}
+h1 {
+  color: #73b64c;
+  text-align: center;
+}
+.user-div {
+  padding: 70px;
+  background-color: #989ba3;
+  color: #4286f4;
+}
+.all-users {
+  background-color: #989ba3;
+}
+.user-form {
+  margin-top: 30px;
+}
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: #989ba3;
+  border-bottom: 1px solid white;
+}
+.create-user {
+  background-color: #73b64c;
+  color: aliceblue;
+  padding: 10px;
+  margin: 20px 0;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+footer {
+  background-color: #31343b;
+  color: white;
+  text-align: center;
+}
+.all-users {
+  padding: 40px 70px;
+}
+#user1 {
+  width: 100%;
+  border-collapse: collapse;
+}
+#user1 th,
+#user1 td {
+  padding: 40px 70px;
+  border: 1px solid white;
+  padding: 15px;
+}
+#user1 tr:nth-child(even) {
+  background-color: #3160ac;
+}
+#user1 tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+#user1 th {
+  background-color: #73b64c;
+  padding: 12px 0;
+  color: aliceblue;
+}
+#user1 tr:hover {
+  background-color: #373b44;
+  color: aliceblue;
+}
+
+.edit,
+.delete {
+  margin: 5px;
+  padding: 7px;
+  cursor: pointer;
+  color: aliceblue;
+  border-radius: 5px;
+}
+.edit {
+  background-color: rgb(48, 104, 48);
+}
+.delete {
+  background-color: rgb(161, 50, 50);
+}
+.edit:hover {
+  background-color: green;
+}
+.delete:hover {
+  background-color: red;
+}
